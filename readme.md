@@ -32,9 +32,11 @@ Purpose: Automates login to websites protected by CSRF tokens.
 -Saves screenshots (login_failure.png) on login failure for debugging.
 
 ###4. 04_Confrontation_test.py
-Purpose: Conducts penetration tests against Cloudflare-protected websites to evaluate security measures.
+Purpose: Conduct penetration tests against Cloudflare-protected websites to evaluate security measures.
 **Features**:
 Detects Cloudflare protection types (JS challenge, CAPTCHA, rate limiting).
 Attempts to bypass JS challenges and prompts for manual CAPTCHA solving.
 Supports proxy rotation for rate limit evasion (requires proxy configuration).
 Collects security headers and provides detailed test results.
+
+This project is for educational purposes only. Use responsibly and ethically, adhering to website terms of service and legal regulations.
